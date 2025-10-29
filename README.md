@@ -103,7 +103,4 @@ Supplier: Acme Computers
 Approved: True
 Reason: Quantity 3 is within auto-approval threshold (<= 5).
 ```
-
-The input is sourced from `examples/test_requests.txt`. You can add or reorder lines to try different cases (e.g., quantities > 5 to see disapproval).
-
 ---
