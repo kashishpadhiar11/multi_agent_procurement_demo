@@ -1,0 +1,7 @@
+# Minimal dependencies to run the demo without external LLMs
+langchain>=0.2
+langgraph>=0.2
+langchain-core>=0.2.0
+
+# Optional: if you plan to swap in a vector store retriever later
+faiss-cpu>=1.7.4; platform_system != 'Windows'
